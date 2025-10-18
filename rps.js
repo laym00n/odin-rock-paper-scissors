@@ -9,15 +9,24 @@ function getRandomChoice() {
 
     // check the value of randomNum var
     if (randomNum === 1) {
-        choice = "Rock";
+        choice = "rock";
     }
     else if (randomNum === 0) {
-        choice = "Paper";
+        choice = "paper";
     }
     else {
-        choice = "Scissors"
+        choice = "scissors"
     }
 
     return choice;
+}
+
+// get choice from user
+function getHumanChoice() {
+
+    // get choice from user
+    let userChoice = prompt("Enter your choice");
+
+    return userChoice;
 }
 
