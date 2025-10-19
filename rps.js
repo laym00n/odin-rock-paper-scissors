@@ -111,6 +111,3 @@ function playGame() {
     // show final score
     console.log(`Final Score: You- ${humanScore} | Computer- ${computerScore}`)
 }
-
-// start the game
-playGame();
