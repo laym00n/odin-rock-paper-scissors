@@ -55,3 +55,11 @@
  .redText, #computerScoreDisplay {
     color: hsla(0, 59%, 46%, 0.8);
  }
+
+#rock:disabled,
+#paper:disabled,
+#scissors:disabled {
+  opacity: 0.5;
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
