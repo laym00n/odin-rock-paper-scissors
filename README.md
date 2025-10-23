@@ -1,35 +1,34 @@
 # Rock Paper Scissors game - The Odin Project
 
-I made a rock paper scissors game using basic javascript. The goal was to make this game and play it through console tab available in developers tool.
+A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. This project was updated from a console-only version to a fully interactive web application with a UI, as part of The Odin Project curriculum.
 
 ***
 
-## How to Play
+## Screenshot
 
-Since the game does not use any HTML elements, you must run it from the console.
+![Screenshot first](./screenshots/first.png)
 
-* Open the index.html file in your web browser (like Chrome or Firefox).
+![Screenshot first](./screenshots/second.png)
 
-* Open the Developer Tools by pressing F12 (or right-click and select "Inspect").
+![Screenshot first](./screenshots/third.png)
 
-* Click on the "Console" tab.
 
-* To start the game, type playGame() and press Enter.
 
-* A prompt box will appear asking for your choice. Type "rock", "paper", or "scissors" (any case will work).
+## Live Demo
 
-* The console will log the result of the round and the current score.
+You can play the game here: https://laym00n.github.io/odin-rock-paper-scissors/
 
-* Repeat for 5 rounds. After the game, the console will declare the final winner!
+## Technologies Used
 
----
+1. HTML: For the structure and content of the game.
 
-## How it Works
+2. CSS: For all styling, including button hover effects, result colors (.greenText, .redText), and the :disabled button state.
 
-The entire game logic is contained within the playGame() function. When called, it initializes the scores and uses helper functions to run the game:
+3. JavaScript: For all game logic, including:
 
-* getRandomChoice(): Randomly generates 0, 1, or 2 and returns "rock", "paper", or "scissors".
-* getHumanChoice(): Uses a prompt() to get text input from the user.
-* playRound(): Takes the human and computer choices, compares them to find the winner, logs the result, and updates the score.
+    * DOM Manipulation (selecting elements, updating .textContent, and
+    managing classes).
 
-A for loop calls these functions 5 times to play the 5 rounds, and then a final if/else block checks the scores to declare the winner.
+    * Event Listeners (waiting for button clicks).
+
+    * Game state management (tracking scores and rounds played).
